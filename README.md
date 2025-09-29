@@ -173,7 +173,6 @@ Labeling (example workflow)
 Provide your own labeling script or adapt one (e.g., label_flow.py) that maps 5-tuples/IP ranges to roles:
 
 ```json
-// roles.json (example)
 {
   "bots":    ["10.0.0.1-10.0.0.30"],
   "normals": ["10.0.0.31-10.0.0.41"],
@@ -235,7 +234,7 @@ tshark -r /tmp/s6_mixed_traffic.pcap -q -z io,stat,60,"COUNT(tcp) tcp","COUNT(ud
 
 ## 📜 License
 
-MIT License — see LICENSE.
+GPL-3.0 License — see LICENSE.
 
 ## 📮 Contact
 
