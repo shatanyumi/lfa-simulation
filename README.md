@@ -33,7 +33,7 @@ This framework instantiates a realistic ISP↔IDC-like topology (47 OVS switches
   - Domain form: `idcg{g}h{i}.lfa.com`
 - **DNS server:** `dns_server` @ `10.0.100.2/12` (answers `*.lfa.com`)
 
-> **Capture chokepoint:** `s6` interface **toward `s42`** (auto-discovered). PCAP is written to `/tmp/s6_mixed_traffic.pcap` and copied to `~/study/iar/topo/`.
+> **Capture chokepoint:** `s6` interface **toward `s42`** (auto-discovered). PCAP is written to `/tmp/s6_mixed_traffic.pcap` and copied to `~/lfa-simulation/topo/`.
 
 ### Links (key ones reflected in the script)
 
