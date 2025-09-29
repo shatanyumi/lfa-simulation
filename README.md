@@ -121,7 +121,7 @@ The script will:
 ### 📄 Outputs
 
 - PCAP
-    - /tmp/s6_mixed_traffic.pcap (also copied to ~/study/iar/topo/)
+    - /tmp/s6_mixed_traffic.pcap (also copied to ~/lfa-simulation/topo/)
 - Logs
     - Global: /tmp/lfa_simulation.log
     - Normal: /tmp/normal_traffic_log.txt
